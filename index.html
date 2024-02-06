@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Coinz Token</title>
+<title>Coinz Token</title> <!-- Page title updated -->
 <style>
     body, html {
         margin: 0;
@@ -16,12 +16,23 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        flex-direction: column; /* This ensures that the content flows vertically */
+    }
+
+    img {
+        max-width: 200px; /* Set the size of the SVG */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .content {
+        padding-top: 1.5em; /* Adjusted to add approximately 3 lines worth of padding based on the font size */
     }
 </style>
 </head>
 <body>
-    <div>
-        <p>COINZ IS A NOVEL TOKEN ON THE BASE BLOCKCHAIN UTILIZING THE ERC404 STANDARD.</p>
+    <img src="coinz-logo.svg" alt="Coinz Logo"> <!-- Logo alt text updated -->
+    <div class="content">
+        <p>COINZ IS A NOVEL TOKEN ON THE BASE BLOCKCHAIN UTILIZING THE ERC404 STANDARD.</p> <!-- Text updated -->
     </div>
 </body>
 </html>
